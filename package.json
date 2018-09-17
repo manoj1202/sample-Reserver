@@ -1,0 +1,23 @@
+{
+  "name": "reservation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node Sever.js",
+    "server": "nodemon server.js",
+    "reservationapp": "npm start --prefix reservationapp",
+    "dev": "concurrently \"npm run server\" \"npm run reservationapp\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13",
+    "nodemon": "^1.18.4",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
